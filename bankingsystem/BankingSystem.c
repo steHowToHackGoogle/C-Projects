@@ -3,6 +3,8 @@
 
 int accnum, boll;
 
+
+
 struct acc {
     char f_name[30];
     char l_name[30];
@@ -136,6 +138,9 @@ void log_in() {
             printf("~~~~~~~~~~~~~~~~~~~~~~\nHello %s %s!\nYour balance: $%.2f\n~~~~~~~~~~~~~~~~~~~~~~ \n", clients[accnum].f_name, clients[accnum].l_name, clients[accnum].balance);
             logged_in();
         }
+    }else {
+        printf("~~~~~~~~~~~~~~~~~~~~~~\nUser not found!\n~~~~~~~~~~~~~~~~~~~~~~\n");
+        menu();
     }
 }
 
