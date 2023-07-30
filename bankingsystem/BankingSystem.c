@@ -16,14 +16,14 @@ struct acc {
 struct acc clients[100];
 
 void data_clients() {
-    strcpy(clients[0].f_name, "Giurgi");
-    strcpy(clients[0].l_name, "Stefan");
-    strcpy(clients[0].u_name, "Gstef");
-    strcpy(clients[0].pass, "Frigiderele123");
+    strcpy(clients[0].f_name, "Donald");
+    strcpy(clients[0].l_name, "Trump");
+    strcpy(clients[0].u_name, "DTrump");
+    strcpy(clients[0].pass, "Billion");
     clients[0].balance = 2474.98f;
 
     strcpy(clients[1].f_name, "Giurgi");
-    strcpy(clients[1].l_name, "Stefana");
+    strcpy(clients[1].l_name, "Stefan");
     strcpy(clients[1].u_name, "giurgistef");
     strcpy(clients[1].pass, "GiurgiStefan");
     clients[1].balance = 2471.98f;
